@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://fca13.sharepoint.com/sites/Practice/SitePages/CollabHome.aspx",
+      "customActions": {
+        "f8a23d33-2a6a-4381-acf8-1e1bd2bffb59": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "HEADER",
+            "Bottom": "FOOTER"
+          }
+        }
+      }
+    },
+    "dCext": {
+      "pageUrl": "https://fca13.sharepoint.com/sites/Practice/SitePages/CollabHome.aspx",
+      "customActions": {
+        "f8a23d33-2a6a-4381-acf8-1e1bd2bffb59": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "HEADERjadhjkdahkj",
+            "Bottom": "FOOTERdjkajd"
+          }
+        }
+      }
+    }
+  }
+}
